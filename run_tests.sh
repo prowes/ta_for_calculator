@@ -1,0 +1,1 @@
+pytest ta_calc.py
