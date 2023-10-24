@@ -3,7 +3,7 @@ To run: pytest [--headed] selenium_pytest_ec2_example.py'''
 from selenium import webdriver
 import pytest
 
-URL = "http://16.171.232.118:8081/"
+URL = "http://13.48.190.179:8081/"
 
 
 @pytest.fixture()
