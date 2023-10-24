@@ -25,4 +25,4 @@ def setup(request):
 class TestURL:
     def test_url_name(self):
         self.driver.get(URL)
-        assert self.driver.title == "CQlculator"
+        assert self.driver.title == "Calculator"
