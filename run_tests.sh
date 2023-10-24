@@ -1,2 +1,2 @@
-pip3 install requirements.txt
+pip install -r requirements.txt
 pytest ta_calc.py
