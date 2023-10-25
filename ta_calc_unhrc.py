@@ -1,9 +1,12 @@
 ''' Just a simple example of Selenium tests.
-To run: python3 -m pytest ta_calc.py'''
+To run: python3 -m pytest ta_calc_unhrc.py'''
 from selenium import webdriver
 import pytest
+import requests
 
-URL = "http://13.48.190.179:8081/"
+r = requests.get('http://checkip.amazonaws.com')
+public_url = r.text.strip()
+URL = f"http://{public_url}:8081/"
 
 
 @pytest.fixture()
